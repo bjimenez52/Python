@@ -30,7 +30,7 @@ def main(actual_number): # function to run guessing game
 
             if guess == actual_number: # check if guess is correct
                 print("You Got It!")
-                 # exit loop
+                break # exit loop
             
             print(check(guess, actual_number)) # print result of check function
             
