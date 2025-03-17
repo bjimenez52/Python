@@ -4,14 +4,15 @@ Name: Bianca Jimenez
 github link: https://github.com/bjimenez52/Python/tree/main/Python
 
 '''
-
-def is_palindrome(string):
+# Define the function
+def is_palindrome(string): # function to check if a string is a palindrome
     # Normalize the string by removing spaces and converting to lowercase
     normalized_string = string.replace(" ", "").lower()
     # Check if the string is equal to its reverse
     return normalized_string == normalized_string[::-1]
-  
-def is_anagram(string1,string2):
+
+# Define the function  
+def is_anagram(string1,string2): # function to check if two strings are
     # Normalize the strings by removing spaces and converting to lowercase
     normalized_string1 = string1.replace(" ", "").lower()
     normalized_string2 = string2.replace(" ", "").lower()
